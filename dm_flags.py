@@ -17,7 +17,9 @@ def define_flags():
     tf.app.flags.DEFINE_string('checkpoint_dir', 'checkpoint',
                                "Output folder where checkpoints are dumped.")
 
-    tf.app.flags.DEFINE_string('dataset', 'dataset',
+    # tf.app.flags.DEFINE_string('dataset', 'dataset',
+    #                            "Path to the dataset directory.")
+    tf.app.flags.DEFINE_string('dataset', 'H:\_Storage\Datasets\img_align_celeba',
                                "Path to the dataset directory.")
 
     tf.app.flags.DEFINE_float('disc_loss_threshold', 0.1,
